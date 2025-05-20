@@ -24,7 +24,7 @@ main {
     padding: 1rem;
     border: solid greenyellow;
     width: 75%;
-    height: 550px;
+    height: 650px;
     display: flex;
     flex-wrap: wrap;
      
@@ -72,6 +72,9 @@ aside {
     width: 24%;
     border: solid green;
     
+}
+aside a :hover {
+    background: gray; color: red;
 }
 
 footer {
