@@ -44,7 +44,7 @@ a {
     background: red;
     border-radius: 2rem;
     height: 60px;
-    padding: 1rem;align-self: end;
-    box-shadow: 2px 2px 2pxcd .. brown;
+    padding: 1rem; align-self: end;
+    box-shadow: 2px 2px 2pxcd  brown;
 }
 a:hover {background: black;}
