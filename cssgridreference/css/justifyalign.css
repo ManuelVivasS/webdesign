@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box; padding: 0; margin: 0;
+}
+body {
+    border: solid darkblue;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+header {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: 2fr 4fr;
+    background-color: lightgray;
+    border: solid gray;
+    color: black;
+}
+header img {
+    width: 300px;
+    height: 200px;
+    justify-items: center;
+}
+h1 { 
+    align-self: center; 
+   
+}
+nav {
+    grid-column: 1/-1;
+    border: solid;
+    background: rgb(150, 156, 156);   
+}
+nav ul {
+    display: grid;
+        grid-template-columns: 1fr repeat(5, 150px) 1fr;
+    list-style: none;
+}
+nav a {
+    border: black solid;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    display: grid;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    background: yellowgreen;
+    border-radius: 1rem;
+    width: 8rem;
+    color: black;
+}
+nav a:hover {
+    background: black;
+    color: darkgray;
+}
+
+main {
+    display: grid;
+    grid-column: 1 /5;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background: darkgreen;
+    border: solid 2px lightcyan;
+    gap: 10px;
+   }
+   section {
+    display: grid;
+    border: solid black 4px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 6px;
+    background: lightskyblue;
+    margin: 2px;
+    height: 190px;
+    width: 300px;
+
+   }
+   section article {
+    border: solid black;
+    border-radius: 10px;
+    margin: 2px;
+    background: yellow;
+    width: 20px;
+    height: 20px;
+   
+   }
+   .sec_1 {justify-items:start;}
+   .sec_2 { justify-items: end;}
+   .sec_3 { justify-items: center;}
+   .sec_4 { align-items: flex-start; }
+   .sec_5 { align-items: end;}
+   .sec_6 { align-items: center;}
+   .sec_7 { justify-items: stretch; }
+   .sec_8 { align-items: stretch;}
+   .sec_1 article { height: unset;}
+   .sec_2 article { height: unset;}
+   .sec_3 article { height: unset;}
+   .sec_4 article { width: unset;}
+   .sec_5 article { width: unset;}
+   .sec_6 article { width: unset;}
+   .sec_7 article {width: unset; height: unset;}
+   .sec_8 article {width: unset; height: unset;}
+
+
+aside {
+    border: yellow solid;
+    grid-column: -3/-1;
+    padding: 2rem;
+    background: blue;
+    color: aqua;
+    font-size: 2rem;
+}
+footer {
+    grid-column: 1/-1; height: 80px; padding: 2rem;
+    color: lightgray;
+    font-size: 1.5rem;
+     background: black;   
+}
