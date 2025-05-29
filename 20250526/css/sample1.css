@@ -1,0 +1,40 @@
+main {
+    background: lightblue;
+    width: 1000px;
+    border: red 3px solid;
+    margin: 0 auto; /* centra el objeto en el contenedor*/
+    padding:  1rem;
+    font-size: 2rem
+}
+
+/* MAQUETADO PARA TABLET*/
+@media screen and ( max-width: 800px ) {
+    main {
+        background: green;
+        border:  orange;
+        font-size: 2rem;
+        color: white;
+        width: 650px;
+    }
+    
+}
+/* MAQUETADO PARA CELULAR*/
+@media screen and ( max-width: 450px ) {
+    main {
+        background: yellow;
+        border: dashed purple;
+        font-size: 0.8rem;
+        color: black;
+        width: unset;
+        margin: unset;
+        font-family: Arial, Helvetica, sans-serif;
+    }      
+}
+
+ footer a { background: lightyellow; text-decoration: none;
+        color: blue; font-size: 1rem;       
+
+
+    }
+    a:hover {background: black;
+    color: thistle;}
