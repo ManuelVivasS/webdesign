@@ -98,3 +98,9 @@ footer {
     font-size: 1.5rem;
      background: black;   
 }
+
+footer a {
+    background: orangered; text-decoration: none; border-radius: 1rem;
+    color: black;
+}
+ footer a:hover { background-color: antiquewhite; color: black;}
