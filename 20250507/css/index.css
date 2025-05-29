@@ -29,10 +29,15 @@ main {
     flex-wrap: wrap;
      
 }
-nav a{ text-decoration: none;
+nav a{ text-decoration: none; 
+} 
+nav a:hover{ background: black; color: whitesmoke; border-radius: 2rem;}
 
-}
-
+footer a:hover {  background: darkgreen; color: white;}
+footer a {
+    text-decoration: none; background: blanchedalmond;color: black;
+    border-radius: 1rem; 
+}   
 ul {
     border: solid whitesmoke;
     padding: 1rem;
@@ -83,4 +88,4 @@ footer {
     height: 50px;
     
 }
-        
+
