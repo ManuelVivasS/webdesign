@@ -30,49 +30,42 @@ header img {
     height: 200px; 
 }
 
-
-
-nav {    
+nav {
+    height: 100px;
     width: 100%;
-    border: solid blue;
-    background: rgb(191, 236, 236);  
-    padding: 8px;
-    
-
+    grid-column: 1/-1;
+    border: solid;
+    background: black;  
+    padding: 1rem;
+  
+}
+nav ul {
+    display: flex; flex-wrap: wrap;  
+    list-style: none; justify-items: center;
 }
 
-
-ul { background: white; border: solid black 2px;
-      display:flex; flex-wrap: wrap;
-    justify-items: center;    background: darkblue;  
-         
-}
-
- ul li {   
-    justify-content: center;
-    align-content: center; list-style: none;
-    background: darkblue; border: solid black; 
-     width: 32rem;
+ nav li {   
+     width: 15rem; 
+     padding: 1rem;
         
     }
     
 nav a {
-    border: white solid;
-    padding: .5rem ;    
+    margin: 1rem;
+    border: black solid;
+    padding: 1rem;    
     display: grid;
     text-decoration: none;
     text-align: center;
     font-size: 1rem;
-    background: lightslategray;
+    background: rgb(6, 100, 100);
     border-radius: 1rem;
-    width: 18rem;
+    width: 12rem;
     color: black;
-    justify-self: center;
 }
 nav a:hover {
     background: black;
-    color: darkgray;
-}
+    color: darkgray;}
 
 #subt { border: white; background: rgb(184, 241, 184);  padding: 3rem;  width: 100%;}
 
